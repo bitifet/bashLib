@@ -52,7 +52,7 @@ fi;
 # Setup:
 # ======
 echo "Software setup..."
-sudo apt-get install bind9 # bind9-doc
+sudo apt-get install -y bind9 # bind9-doc
 
 echo "Log directory setup...."
 sudo mkdir /var/log/named
